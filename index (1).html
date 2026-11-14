@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sayt yasab beraman — 5 kunda tayyor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f6f1;--surface:#ffffff;--ink:#14231c;--muted:#5a6b62;--brand:#0f6b4f;--accent:#ffcf3f;--line:#d5ddd6;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1a15;--surface:#16251e;--ink:#eef3ef;--muted:#9db0a5;--brand:#3fcf9b;--accent:#ffcf3f;--line:#27382f}}
+:root[data-theme="dark"]{--bg:#0f1a15;--surface:#16251e;--ink:#eef3ef;--muted:#9db0a5;--brand:#3fcf9b;--accent:#ffcf3f;--line:#27382f}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 Onest,system-ui,sans-serif}
+h1,h2,h3{font-family:Unbounded,system-ui,sans-serif;line-height:1.15;margin:0}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+.logo{font-family:Unbounded,sans-serif;font-weight:800;font-size:18px}
+a{color:inherit}
+.btn{display:inline-block;background:var(--brand);color:#fff;padding:14px 26px;border-radius:999px;text-decoration:none;font-weight:600}
+:root[data-theme="dark"] .btn,:root:not([data-theme="light"]) .btn{color:#06231a}
+.btn:focus-visible,a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.btn.alt{background:var(--accent);color:#14231c}
+.hero{padding:50px 0 70px}
+.hero h1{font-size:clamp(32px,6.5vw,62px);font-weight:800;max-width:14em}
+.hero p{font-size:20px;color:var(--muted);max-width:34em;margin:22px 0 30px}
+.hero .row{display:flex;gap:14px;flex-wrap:wrap}
+.note{margin-top:26px;font-size:15px;color:var(--muted)}
+section{padding:60px 0;border-top:1px solid var(--line)}
+section h2{font-size:clamp(24px,4vw,36px);margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:24px}
+.card h3{font-size:19px;margin-bottom:10px}
+.card p{margin:0;color:var(--muted);font-size:16px}
+.price{font-family:Unbounded,sans-serif;font-size:26px;font-weight:800;margin:10px 0 14px}
+.card ul{margin:0;padding-left:20px;color:var(--muted);font-size:16px}
+.card.best{border:2px solid var(--brand)}
+.badge{display:inline-block;background:var(--accent);color:#14231c;font-size:13px;font-weight:600;padding:2px 12px;border-radius:999px;margin-bottom:10px}
+ol.steps{list-style:none;padding:0;margin:0;display:grid;gap:14px;counter-reset:s}
+ol.steps li{counter-increment:s;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 20px 18px 66px;position:relative}
+ol.steps li::before{content:counter(s);position:absolute;left:18px;top:50%;transform:translateY(-50%);width:34px;height:34px;border-radius:50%;background:var(--brand);color:#fff;display:grid;place-items:center;font-weight:600}
+ol.steps b{display:block}
+details{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-bottom:12px}
+summary{cursor:pointer;font-weight:600}
+details p{margin:10px 0 0;color:var(--muted)}
+form{display:grid;gap:14px;max-width:520px}
+label{font-weight:600;font-size:15px}
+input,select,textarea{width:100%;padding:13px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);font:inherit;margin-top:6px}
+button.btn{border:0;cursor:pointer;font:inherit;font-weight:600}
+.ok{display:none;background:var(--surface);border:2px solid var(--brand);border-radius:12px;padding:16px;font-weight:600}
+footer{padding:40px 0 60px;border-top:1px solid var(--line);color:var(--muted);font-size:15px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><span class="logo">SaytUsta</span><a class="btn alt" href="#aloqa">Buyurtma berish</a></header>
+
+<div class="hero">
+<h1>Biznesingiz uchun sayt — 5 kunda tayyor</h1>
+<p>Do'kon, kafe, klinika yoki xizmatingiz uchun telefonda yaxshi ochiladigan, Google'da topiladigan sayt yasab beraman. Narx oldindan aytiladi, yashirin to'lov yo'q.</p>
+<div class="row"><a class="btn" href="#aloqa">Bepul maslahat olish</a><a class="btn alt" href="#narx">Narxlarni ko'rish</a></div>
+<div class="note">Click va Payme orqali to'lov qabul qilinadi.</div>
+</div>
+
+<section>
+<h2>Sayt sizga nima beradi</h2>
+<div class="grid">
+<div class="card"><h3>Yangi mijozlar</h3><p>Odamlar Google va Telegramda sizni topadi, narx va manzilni o'zi ko'radi.</p></div>
+<div class="card"><h3>Ishonch</h3><p>Saytli biznesga mijoz ko'proq ishonadi. Ish namunalaringiz va sharhlar bir joyda turadi.</p></div>
+<div class="card"><h3>Buyurtmalar 24/7</h3><p>Siz uxlayotganingizda ham mijoz forma to'ldirib yoki Telegramga yozib buyurtma beradi.</p></div>
+</div>
+</section>
+
+<section id="narx">
+<h2>Narxlar</h2>
+<div class="grid">
+<div class="card"><h3>Vizitka sayt</h3><div class="price">500 000 so'm</div><ul><li>1 sahifa</li><li>Telefonga moslashgan</li><li>Aloqa tugmalari</li><li>3 kunda tayyor</li></ul></div>
+<div class="card best"><span class="badge">Eng ommabop</span><h3>Biznes sayt</h3><div class="price">1 500 000 so'm</div><ul><li>5 tagacha sahifa</li><li>Telegram va forma</li><li>Google xarita, SEO asoslari</li><li>5 kunda tayyor</li></ul></div>
+<div class="card"><h3>Onlayn do'kon</h3><div class="price">3 000 000 so'm</div><ul><li>Mahsulotlar katalogi</li><li>Savat va buyurtma</li><li>Click / Payme ulash</li><li>10 kunda tayyor</li></ul></div>
+</div>
+<p class="note">Narxlar boshlang'ich. Aniq narx loyihangizni ko'rgach aytiladi.</p>
+</section>
+
+<section>
+<h2>Qanday ishlaymiz</h2>
+<ol class="steps">
+<li><b>Siz yozasiz</b>Biznesingiz haqida aytib berasiz.</li>
+<li><b>Kelishamiz</b>Narx va muddat yoziladi, 50% oldindan to'lanadi.</li>
+<li><b>Men yasayman</b>Sayt ko'rinishini oraliqda ko'rsataman, fikringizni olaman.</li>
+<li><b>Topshiraman</b>Sayt ishga tushadi, qolgan to'lov qilinadi, 30 kun bepul yordam beraman.</li>
+</ol>
+</section>
+
+<section>
+<h2>Ko'p so'raladigan savollar</h2>
+<details><summary>Domen va hosting narxga kiradimi?</summary><p>Domen va hosting yillik to'lov bo'lib, taxminan 150 000–300 000 so'm. Men tanlashda yordam beraman.</p></details>
+<details><summary>Saytni keyin o'zim o'zgartira olamanmi?</summary><p>Ha. Matn va narxlarni o'zgartirish uchun oddiy ko'rsatma beraman yoki o'zim o'zgartirib beraman.</p></details>
+<details><summary>Sayt telefonda yaxshi ishlaydimi?</summary><p>Ha, barcha saytlar telefon, planshet va kompyuterga moslab yasaladi.</p></details>
+</section>
+
+<section id="aloqa">
+<h2>Buyurtma bering</h2>
+<form id="f">
+<div><label for="n">Ismingiz</label><input id="n" required></div>
+<div><label for="t">Telefon yoki Telegram</label><input id="t" required placeholder="+998 90 123 45 67"></div>
+<div><label for="k">Qaysi sayt kerak?</label><select id="k"><option>Vizitka sayt</option><option>Biznes sayt</option><option>Onlayn do'kon</option><option>Hali bilmayman</option></select></div>
+<div><label for="m">Biznesingiz haqida qisqacha</label><textarea id="m" rows="3"></textarea></div>
+<button class="btn" type="submit">Ariza yuborish</button>
+<div class="ok" id="ok" role="status"></div>
+</form>
+</section>
+
+<footer>© 2026 SaytUsta · Toshkent · Telegram: <a href="https://t.me/akhrlv">@akhrlv</a> · Tel: +998 94 666 43 24</footer>
+</div>
+<script>
+document.getElementById('f').addEventListener('submit',function(e){
+e.preventDefault();
+var n=document.getElementById('n').value,t=document.getElementById('t').value,k=document.getElementById('k').value,m=document.getElementById('m').value;
+var text='Salom! Men '+n+'. Kontakt: '+t+'. Kerak: '+k+'. '+m;
+var ok=document.getElementById('ok');
+ok.style.display='block';
+ok.textContent='Rahmat, '+n+'! Telegram ochiladi, xabarni yuboring.';
+window.open('https://t.me/akhrlv?text='+encodeURIComponent(text),'_blank');
+});
+</script>
+</body>
+</html>
